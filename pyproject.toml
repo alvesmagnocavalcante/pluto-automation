@@ -1,0 +1,26 @@
+[project]
+name = "projeto-pluto"
+version = "0.1.0"
+description = "Painel desktop para conciliações financeiras e automações RPA"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "defusedxml>=0.7.1",
+    "drissionpage==4.1.1.4",
+    "flet[all,desktop]>=0.86.1,<0.87",
+    "openpyxl>=3.1.5",
+]
+
+[tool.flet.app]
+exclude = [
+    ".agents",
+    ".codex",
+    ".git",
+    ".uv-cache",
+    ".venv",
+    "Atividades",
+    "build",
+    "output",
+    "tests",
+    "__pycache__",
+]

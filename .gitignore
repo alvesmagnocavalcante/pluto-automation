@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.uv-cache/
+.flet/
+.env
+.browser-profile/
+build/
+dist/
+output/
+*.egg-info/
